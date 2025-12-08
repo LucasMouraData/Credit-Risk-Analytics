@@ -3,6 +3,8 @@
 
 Projeto de portfólio que replica um ambiente real de análise de crédito bancário, incluindo modelagem SQL, construção de tabelas fato/dimensão, cálculos de risco e visualizações avançadas no Power BI.
 
+<p><em>Nota: todos os dados utilizados neste projeto são sintéticos e criados apenas para fins educacionais.</em></p>
+
 <h3> Acesse o Dashboard Publicado</h3>
 
 <p>
@@ -242,5 +244,6 @@ Focada na análise de risco e comportamento da carteira:
 </ul>
 
 <h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
+
 
 
