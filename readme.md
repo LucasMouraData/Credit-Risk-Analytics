@@ -11,7 +11,6 @@ Projeto de portfólio que replica um ambiente real de análise de crédito banc�
     </a>
 </p>
 
-
 <h3>Objetivo</h3>
 O objetivo deste projeto é desenvolver um ambiente analítico completo para crédito e risco, estruturando desde a modelagem de dados em SQL Server até a criação de métricas financeiras e visualizações no Power BI. A solução consolida informações de contratos, clientes e parcelas em um modelo dimensional otimizado, permitindo análises confiáveis sobre inadimplência, exposição ao risco, aging e comportamento da carteira.
 
@@ -120,6 +119,11 @@ A solução é composta pelas seguintes views principais:
 <li>DWH.VW_CARTEIRA — integra contratos e parcelas para formar uma visão completa da carteira consolidada, utilizada diretamente pelo Power BI.</li>
 </ul>
 
+<p>
+    <a href="scripts" target="_blank">
+        Acesse as consultas de desenvolvimento
+    </a>
+</p>
 
 Essas views formam a camada analítica do projeto, garantindo dados preparados, consistentes e prontos para consumo, seguindo boas práticas de modelagem e governança aplicadas em ambientes bancários.
 
@@ -232,3 +236,4 @@ Focada na análise de risco e comportamento da carteira:
 </ul>
 
 <h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
+
