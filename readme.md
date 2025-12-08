@@ -222,12 +222,13 @@ Focada na análise de risco e comportamento da carteira:
 
 <li>DWH.PRODUTO
 
-<li>DWH.CONTRATOS.
+<li>DWH.CONTRATOS
 
 <li>DWH.PARCELAS
 
-<li>DWH.CARTEIRA
+<li>DWH.CARTEIRA.
 </ul>
 
 </ul>
 
+<h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
