@@ -3,6 +3,15 @@
 
 Projeto de portfólio que replica um ambiente real de análise de crédito bancário, incluindo modelagem SQL, construção de tabelas fato/dimensão, cálculos de risco e visualizações avançadas no Power BI.
 
+<h3> Acesse o Dashboard Publicado</h3>
+
+<p>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiYzgxMjdhNzctMjRiNy00NGZkLWExZDktZjAyNDBjNTQzYmU2IiwidCI6ImVkYjcyZWY5LWI3ZGYtNGU4MS1hMDBhLWE2OWFlOGY5MDE3ZSJ9" target="_blank">
+        Credito & Risco
+    </a>
+</p>
+
+
 <h3>Objetivo</h3>
 O objetivo deste projeto é desenvolver um ambiente analítico completo para crédito e risco, estruturando desde a modelagem de dados em SQL Server até a criação de métricas financeiras e visualizações no Power BI. A solução consolida informações de contratos, clientes e parcelas em um modelo dimensional otimizado, permitindo análises confiáveis sobre inadimplência, exposição ao risco, aging e comportamento da carteira.
 
@@ -213,7 +222,7 @@ Focada na análise de risco e comportamento da carteira:
 
 <li>DWH.PRODUTO
 
-<li>DWH.CONTRATOS
+<li>DWH.CONTRATOS.
 
 <li>DWH.PARCELAS
 
@@ -221,3 +230,4 @@ Focada na análise de risco e comportamento da carteira:
 </ul>
 
 </ul>
+
