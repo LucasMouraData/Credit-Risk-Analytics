@@ -1,0 +1,6 @@
+-- RC Carteira Vencida T.A.
+
+CALCULATE(
+    [RC Carteira Vencida],
+    DATEADD('DWH CALENDARIO'[Data], -1, QUARTER)
+)

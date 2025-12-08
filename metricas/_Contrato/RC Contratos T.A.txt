@@ -1,0 +1,10 @@
+-- RC Contratos T.A
+
+VAR vDataAtual = MAX('DWH CALENDARIO'[Data])
+
+VAR vTrimestreAnterior =
+    DATESINPERIOD( 'DWH CALENDARIO'[Data], EDATE(vDataAtual, -3),  -3, MONTH)
+
+RETURN
+
+CALCULATE([RC Contratos],vTrimestreAnterior)

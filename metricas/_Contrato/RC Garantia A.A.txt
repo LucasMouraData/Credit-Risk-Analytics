@@ -1,0 +1,12 @@
+-- RC Garantia A.A
+
+VAR vDataAtual = MAX('DWH CALENDARIO'[Data])
+
+
+VAR vTrimestreAnoAnterior =
+    DATESINPERIOD('DWH CALENDARIO'[Data], 
+        EDATE(vDataAtual, -12), -3,
+        MONTH)
+
+RETURN
+CALCULATE([RC Garantia], vTrimestreAnoAnterior)

@@ -1,0 +1,7 @@
+-- RC % Part. Canal
+
+DIVIDE(
+    [RC Valor Financiado T.T],
+    CALCULATE(
+        [RC Valor Financiado T.T],
+        ALL ( 'DWH VW_CONTRATOS'[CANAL CLIENTE] )))

@@ -1,0 +1,8 @@
+-- RC Valor Financiado T.T
+
+VAR vDataAtual = MAX('DWH CALENDARIO'[Data])
+
+VAR vTrimestre = DATESINPERIOD( 'DWH CALENDARIO'[Data], vDataAtual, -3, MONTH)
+
+RETURN
+CALCULATE([RC Valor Financiado], vTrimestre)

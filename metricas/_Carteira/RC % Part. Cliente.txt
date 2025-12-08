@@ -1,0 +1,7 @@
+-- RC % Part. Cliente
+
+DIVIDE(
+    [RC Carteira Credito],
+    CALCULATE(
+        [RC Carteira Credito],
+        ALL ('DWH CLIENTES'[TIPO CLIENTE])))

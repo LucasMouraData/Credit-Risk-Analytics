@@ -1,0 +1,8 @@
+-- RC Garantia
+
+VAR ValorFinanciado = [RC Valor Financiado] 
+
+VAR ValorComGarantia = CALCULATE([RC Valor Financiado], 'DWH VW_CONTRATOS'[GARANTIA] <> "SEM GARANTIA ESPECIFICA")
+
+RETURN
+    DIVIDE(ValorComGarantia, ValorFinanciado, 0)

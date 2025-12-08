@@ -1,0 +1,12 @@
+-- RC Top 5 Produtos
+
+IF(
+    RANKX(
+        ALLSELECTED('DWH PRODUTO'[ID PRODUTO]),
+        [RC Valor Financiado T.T],
+        ,
+        DESC,
+        DENSE
+    ) <= 5,
+    [RC Valor Financiado T.T]
+)

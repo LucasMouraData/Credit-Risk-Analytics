@@ -1,0 +1,5 @@
+-- __Rank Carteira
+
+RANKX(
+    ALLSELECTED('DWH CLIENTES'[ID CLIENTE]), 
+    [RC Carteira Credito])

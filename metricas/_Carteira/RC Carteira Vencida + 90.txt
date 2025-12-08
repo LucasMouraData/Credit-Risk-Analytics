@@ -1,0 +1,10 @@
+-- RC Carteira Vencida + 90
+
+//CALCULATE([RC Carteira Vencida], 'DWH VW_CARTEIRA'[BUCKET ATRASO] = "91+")
+
+VAR vCarteiraTotal = [RC Carteira Vencida]
+
+VAR vCarteiraNPL = CALCULATE([RC Carteira Vencida], 'DWH VW_CARTEIRA'[DIAS ATRASO] >= 91)
+
+RETURN
+    DIVIDE(vCarteiraNPL, vCarteiraTotal, 0)

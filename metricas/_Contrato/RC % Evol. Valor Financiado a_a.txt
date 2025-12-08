@@ -1,0 +1,3 @@
+-- RC % Evol. Valor Financiado a/a
+
+DIVIDE([RC Valor Financiado T.T] - [RC Valor Financiado A.A], [RC Valor Financiado A.A], 0)

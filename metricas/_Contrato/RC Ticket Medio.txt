@@ -1,0 +1,3 @@
+-- RC Ticket Medio
+
+DIVIDE([RC Valor Financiado T.T], [RC Contratos T.T], 0)

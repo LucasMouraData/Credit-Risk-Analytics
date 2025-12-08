@@ -1,0 +1,7 @@
+-- RC % Part. Produto
+
+DIVIDE(
+    [RC Valor Financiado T.T],
+    CALCULATE(
+        [RC Valor Financiado T.T],
+        ALL ('DWH PRODUTO'[ID PRODUTO])))

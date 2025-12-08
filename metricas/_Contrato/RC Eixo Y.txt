@@ -1,0 +1,9 @@
+-- RC Eixo Y
+
+VAR vTabela = 
+    ALLSELECTED('DWH CALENDARIO'[TrimestreAnoCurto], 'DWH CALENDARIO'[OrdemAnoTri])
+VAR vMaiorValor = 
+    MAXX(
+        vTabela, [RC Valor Financiado T.T])
+RETURN
+vMaiorValor * 0.9

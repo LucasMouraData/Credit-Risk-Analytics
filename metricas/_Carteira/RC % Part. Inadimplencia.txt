@@ -1,0 +1,7 @@
+-- RC % Part. Inadimplencia
+
+DIVIDE(
+    [RC Carteira Credito],
+    CALCULATE(
+        [RC Carteira Credito],
+        ALL ('DWH VW_CARTEIRA'[BUCKET ATRASO])))

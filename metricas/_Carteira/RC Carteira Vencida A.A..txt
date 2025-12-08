@@ -1,0 +1,11 @@
+-- RC Carteira Vencida A.A.
+
+VAR vFimTri = [RC Data Fim Trimestre]
+
+VAR vFimTriAA = EDATE ( vFimTri, -12 )
+
+RETURN
+CALCULATE (
+    [RC Carteira Vencida],
+    'DWH CALENDARIO'[Data] = vFimTriAA
+)

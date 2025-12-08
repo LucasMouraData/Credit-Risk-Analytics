@@ -1,0 +1,6 @@
+-- RC Carteira Credito T.A.
+
+CALCULATE(
+    [RC Carteira Credito],
+    --DIVIDE( [RC Carteira Credito], 1000,0),
+    DATEADD('DWH CALENDARIO'[Data], -1, QUARTER))

@@ -1,0 +1,3 @@
+-- KPI Valor Financiado
+
+IF([RC % Evol. Valor Financiado t/t] >= 0, "△","▽")

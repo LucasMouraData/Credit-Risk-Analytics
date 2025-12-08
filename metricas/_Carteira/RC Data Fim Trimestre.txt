@@ -1,0 +1,14 @@
+-- RC Data Fim Trimestre
+
+VAR vData = MAX ('DWH CALENDARIO'[Data])
+VAR vMes  = MONTH (vData)
+VAR vMesFim =
+    SWITCH (
+        TRUE(),
+        vMes <= 3,  3,   -- 1T
+        vMes <= 6,  6,   -- 2T
+        vMes <= 9,  9,   -- 3T
+        12               -- 4T
+    )
+RETURN
+EOMONTH ( DATE ( YEAR ( vData ), vMesFim, 1 ), 0 )

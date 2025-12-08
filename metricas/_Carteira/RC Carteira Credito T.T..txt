@@ -1,0 +1,8 @@
+-- RC Carteira Credito T.T.
+
+VAR vFimTri = [RC Data Fim Trimestre]
+RETURN
+CALCULATE (
+    [RC Carteira Credito],
+    'DWH CALENDARIO'[Data] = vFimTri
+)

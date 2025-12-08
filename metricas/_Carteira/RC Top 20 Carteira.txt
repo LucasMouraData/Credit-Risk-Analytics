@@ -1,0 +1,12 @@
+-- RC Top 20 Carteira
+
+IF(
+    RANKX(
+        ALLSELECTED('DWH CLIENTES'[ID CLIENTE]),
+        [RC Carteira Credito],
+        ,
+        DESC,
+        DENSE
+    ) <= 30,
+    [RC Carteira Credito]
+)
