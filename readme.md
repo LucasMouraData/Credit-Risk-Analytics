@@ -137,6 +137,12 @@ O Power Query foi utilizado apenas para gerenciar as conexões com o SQL Server 
 
 Foram desenvolvidos KPIs como Valor Financiado, Carteira Vencida, NPL +90, Ticket Médio, Percentual de Garantia, variações t/t e a/a, inadimplência por PF/PJ e ranking da carteira por cliente, permitindo uma análise robusta da operação de crédito.
 
+<p>
+    <a href="metricas" target="_blank">
+        Acesse as métricas de desevolvimento
+    </a>
+</p>
+
 <h3>Visualizações e Análises Disponíveis</h3>
 
 O relatório em Power BI apresenta duas páginas principais — Carteira e Contratos — que organizam todas as análises de crédito e risco desenvolvidas no projeto. Cada página foi estruturada para facilitar a leitura executiva e a navegação entre indicadores operacionais e visões estratégicas da carteira.
@@ -236,4 +242,5 @@ Focada na análise de risco e comportamento da carteira:
 </ul>
 
 <h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
+
 
