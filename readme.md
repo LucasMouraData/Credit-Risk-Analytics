@@ -52,13 +52,13 @@ Organização e versionamento de toda a lógica de extração, transformação e
 
 <h3>Arquitetura do Projeto</h3>
 
-<img src="assets/src/Project-Arquitetura_.png" alt="Arquitetura" height="">
+<img src="src/Project-Arquitetura_.png" alt="Arquitetura" height="">
 
 A arquitetura do projeto segue um fluxo analítico estruturado em camadas dentro do SQL Server, começando pela ingestão e padronização dos dados brutos, avançando para a modelagem dimensional e finalizando na camada de consumo no Power BI. O processo inclui organização das tabelas base, criação de views intermediárias, aplicação de regras de negócio, consolidação de contratos e parcelas e preparação de tabelas fato e dimensões otimizadas para análise. Essa arquitetura garante rastreabilidade, consistência e performance no cálculo dos indicadores de crédito e risco.
 
 <h3>Modelagem Dimensional</h3>
 
-<img src="assets/src/Project-ModelagemDimensional.png" alt="Modelagem Dimensional" height="">
+<img src="src/Project-ModelagemDimensional.png" alt="Modelagem Dimensional" height="">
 
 A modelagem dimensional do projeto foi estruturada para refletir o funcionamento real de uma operação de crédito e risco, organizando os dados em tabelas fato e dimensão com granularidade consistente e foco em análises financeiras. A construção da base contou com geração assistida por IA, porém todo o modelo, lógica de negócio e estrutura final foram totalmente orientados, validados e revisados manualmente para garantir coerência técnica e aderência aos requisitos do domínio bancário.
 
@@ -130,7 +130,7 @@ O relatório em Power BI apresenta duas páginas principais — Carteira e Contr
 
 <h6>Página: Contratos (2T25)</h6>
 
-<img src="assets/src/Project-PowerBI-contratos.png" alt="Contratos" height="">
+<img src="src/Project-PowerBI-contratos.png" alt="Contratos" height="">
 
 Voltada para produção de crédito e perfil de originação:
 
@@ -158,7 +158,7 @@ Voltada para produção de crédito e perfil de originação:
 
 <h6>Página: Carteira (2T25)</h6>
 
-<img src="assets/src/Project-PowerBI-carteira.png" alt="Carteira" height="">
+<img src="src/Project-PowerBI-carteira.png" alt="Carteira" height="">
 
 Focada na análise de risco e comportamento da carteira:
 
@@ -219,4 +219,5 @@ Focada na análise de risco e comportamento da carteira:
 
 <li>DWH.CARTEIRA
 </ul>
+
 </ul>
