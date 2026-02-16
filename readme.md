@@ -131,7 +131,7 @@ Essas views formam a camada analítica do projeto, garantindo dados preparados, 
 
 <h3>Desenvolvimento Power BI</h3>
 
-O desenvolvimento no Power BI foi construído inteiramente sobre conexões diretas ao SQL Server, garantindo que todas as tabelas do modelo reflitam exatamente as views da camada DWH. As tabelas DWH.CLIENTES, DWH.PRODUTO, DWH.CONTRATOS, DWH.PARCELAS e DWH.CARTEIRA foram importadas diretamente do banco, mantendo o modelo alinhado à arquitetura SQL e evitando transformações redundantes no Power Query.
+O desenvolvimento no Power BI foi construído inteiramente sobre conexões diretas ao SQL Server, garantindo que todas as tabelas do modelo reflitam exatamente as views da camada DWH. As tabelas DIM.CLIENTES, DIM.PRODUTO, FATO.CONTRATOS, FATO.PARCELAS e FATO.CARTEIRA foram importadas diretamente do banco, mantendo o modelo alinhado à arquitetura SQL e evitando transformações redundantes no Power Query.
 
 A tabela DWH.CARTEIRA atua como fato principal e concentra as métricas de análise. As demais tabelas funcionam como dimensões, estruturando um modelo estrela claro e performático, com relacionamentos bem definidos para suportar análises segmentadas de risco e crédito.
 
@@ -244,6 +244,7 @@ Focada na análise de risco e comportamento da carteira:
 </ul>
 
 <h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
+
 
 
 
