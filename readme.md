@@ -230,20 +230,21 @@ Focada na análise de risco e comportamento da carteira:
 <li>Conexões configuradas para acessar as views:
 
 <ul>
-<li>DWH.CLIENTES
+<li>DIM.CLIENTES
 
-<li>DWH.PRODUTO
+<li>DIM.PRODUTO
 
-<li>DWH.CONTRATOS
+<li>FATO.CONTRATOS
 
-<li>DWH.PARCELAS
+<li>FATO.PARCELAS
 
-<li>DWH.CARTEIRA.
+<li>FATO.CARTEIRA.
 </ul>
 
 </ul>
 
 <h4>Projeto desenvolvido para fins de estudo e portfólio, demonstrando domínio em modelagem, SQL e análise de crédito.</h4>
+
 
 
 
